@@ -1,6 +1,6 @@
 {
   "name": "elinkrull-joker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "example",
   "type": "module",
   "main": "src/index.js",
@@ -38,15 +38,15 @@
     "node": "^22.6.0"
   },
   "lint-staged": {
-	"*.js": [
-	  "prettier --write",
-	  "eslint --fix"
-	],
-	"*.html": [
-	  "prettier --write"
-	],
-	"*.scss": [
-	  "prettier --write"
-	]
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.html": [
+      "prettier --write"
+    ],
+    "*.scss": [
+      "prettier --write"
+    ]
   }
 }
